@@ -1,7 +1,7 @@
 let lang = prompt('Tilni tanlang: "uz", "ru", "en" ').toLowerCase()
 
 while (!isNaN(lang) || lang == "") {
-    lang = prompt('Tilni tanlang: "uz", "ru", "en" ')
+    lang = prompt('Tilni tanlang: "uz", "ru", "en" ').toLowerCase()
 }
 
 let year = new Date().getFullYear()

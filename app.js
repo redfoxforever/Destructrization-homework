@@ -43,7 +43,7 @@ function parserUserUz(data) {
           userWebsite = `Uning shaxsiy website: ${website}`,
           userWorkAdd = `${compName} Kompaniyasida Ishlaydi`,
           userWork = `${catchPhrase} sohasida`,
-          userJob = `Ushbu ${bs} sohasida ishlaydi`
+          userJob = `Ushbu ${bs} sohasida ishlaydi`,
           
           userInfo = `${currentYear}\n${userName}\n${userNickName}\n${userEmail}\n${userStreet}\n${userHomeCordi}\n${userZipCode}\n${userPhone}\n${userWebsite}\n${userWorkAdd}\n${userWork}\n${userJob}`
     
@@ -64,7 +64,7 @@ function parserUserRu(data) {
           userWebsite = `Его личный сайт: ${website}`,
           userWorkAdd = `Работает в компании: ${compName}`,
           userWork = `В поле ${catchPhrase}`,
-          userJob = `Он работает на ${bs}`
+          userJob = `Он работает на ${bs}`,
           
           userInfo = `${currentYear}\n${userName}\n${userNickName}\n${userEmail}\n${userStreet}\n${userHomeCordi}\n${userZipCode}\n${userPhone}\n${userWebsite}\n${userWorkAdd}\n${userWork}\n${userJob}`
     
@@ -85,7 +85,7 @@ function parserUserEn(data) {
           userWebsite = `His personal website: ${website}`,
           userWorkAdd = `Works for ${compName} Company`,
           userWork = `Works at ${catchPhrase}`,
-          userJob = `Works in ${bs}`
+          userJob = `Works in ${bs}`,
           
           userInfo = `${currentYear}\n${userName}\n${userNickName}\n${userEmail}\n${userStreet}\n${userHomeCordi}\n${userZipCode}\n${userPhone}\n${userWebsite}\n${userWorkAdd}\n${userWork}\n${userJob}`
     

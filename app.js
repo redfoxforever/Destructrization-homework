@@ -1,3 +1,5 @@
+let text = document.querySelector('.text')
+
 let lang = prompt('Tilni tanlang: "uz", "ru", "en" ').toLowerCase()
 
 while (!isNaN(lang) || lang == "") {
@@ -46,7 +48,8 @@ function parserUserUz(data) {
           userJob = `Ushbu ${bs} sohasida ishlaydi`,
           
           userInfo = `${currentYear}\n${userName}\n${userNickName}\n${userEmail}\n${userStreet}\n${userHomeCordi}\n${userZipCode}\n${userPhone}\n${userWebsite}\n${userWorkAdd}\n${userWork}\n${userJob}`
-    
+
+        text.innerHTML = userInfo
     return userInfo
 }
 
@@ -67,7 +70,8 @@ function parserUserRu(data) {
           userJob = `Он работает на ${bs}`,
           
           userInfo = `${currentYear}\n${userName}\n${userNickName}\n${userEmail}\n${userStreet}\n${userHomeCordi}\n${userZipCode}\n${userPhone}\n${userWebsite}\n${userWorkAdd}\n${userWork}\n${userJob}`
-    
+          
+        text.innerHTML = userInfo
     return userInfo
 }
 
@@ -88,7 +92,8 @@ function parserUserEn(data) {
           userJob = `Works in ${bs}`,
           
           userInfo = `${currentYear}\n${userName}\n${userNickName}\n${userEmail}\n${userStreet}\n${userHomeCordi}\n${userZipCode}\n${userPhone}\n${userWebsite}\n${userWorkAdd}\n${userWork}\n${userJob}`
-    
+        
+        text.innerHTML = userInfo
     return userInfo
 }
 
